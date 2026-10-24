@@ -1,0 +1,59 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+
+# Model checkpoints and binary arrays
+/checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+
+# Sequencing data, alignment intermediates, and generated results
+/test/bam/
+/test/hdf5/
+/test/out/
+*.fast5
+*.pod5
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.fna
+*.csv
+*.tsv
+*.log
+*.tmp
+nohup.out
+
+# Build and package outputs
+build/
+dist/
+*.egg-info/
